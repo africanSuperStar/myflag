@@ -1,5 +1,25 @@
 <template>
-  <div class="contact-us">
-    <h1>This is an about page</h1>
+  <div class="mf-background-container">
+    <mf-nav-bar></mf-nav-bar>
   </div>
 </template>
+
+<script>
+import MfNavBar from "@/components/MfNavBar";
+
+export default {
+  name: "rehabilitation",
+  components: {
+    MfNavBar,
+  },
+};
+</script>
+
+<style lang="scss" scoped>
+.mf-background-container {
+  background: radial-gradient(#dfdfdf 8%, transparent 8%), transparent;
+  background-position: 0 0, 25px 25px;
+  background-size: 25px 25px;
+  min-height: 100vh;
+}
+</style>

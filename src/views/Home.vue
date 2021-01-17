@@ -13,8 +13,8 @@
                 businesses. Our dedicated legal and support team have more than
                 a decade of experience and specialise in insolvency matters.
               </p>
-              <b-button href="#" class="btn bg-primary rounded-pill"
-                >Apply Now</b-button
+              <b-button to="/contact-us" class="btn bg-primary rounded-pill"
+                >Apply Online</b-button
               >
             </div>
             <div class="col-lg-5 py-3 wow">
@@ -29,7 +29,77 @@
       </div>
     </div>
 
-    <div class="page-section">
+    <!-- Services -->
+    <div class="page-section mt-5">
+      <div class="container">
+        <div class="row justify-content-center align-items-start">
+          <h2 class="mb-4">Services</h2>
+        </div>
+        <div class="row align-items-start">
+          <div class="col-sm-12 col-lg-4 pt-4">
+            <div
+              class="img-fluid"
+              data-aos="zoom-in"
+              data-aos-offset="0"
+              data-aos-delay="0"
+              data-aos-duration="300"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="false"
+              data-aos-once="true"
+              data-aos-anchor-placement="top-center"
+            >
+              <h5 class="services-title">Liquidation</h5>
+              <mf-liquidity class="liquidity"></mf-liquidity>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 pt-4">
+            <div
+              class="img-fluid"
+              data-aos="zoom-in"
+              data-aos-offset="0"
+              data-aos-delay="0"
+              data-aos-duration="300"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="false"
+              data-aos-once="true"
+              data-aos-anchor-placement="top-center"
+            >
+              <h5 class="services-title pb-2">Sequestration</h5>
+              <mf-sequestration class="sequestration"></mf-sequestration>
+              <p class="services-title pt-7">
+                Sequestration is declaring yourself insolvent/bankrupt through a
+                High Court application under the Insolvency Act.
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 pt-4">
+            <div
+              class="img-fluid"
+              data-aos="zoom-in"
+              data-aos-offset="0"
+              data-aos-delay="0"
+              data-aos-duration="300"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="false"
+              data-aos-once="true"
+              data-aos-anchor-placement="top-center"
+            >
+              <h5 class="services-title pb-5">Rehabilitation</h5>
+              <mf-rehabilitation class="rehabilitation"></mf-rehabilitation>
+              <p class="services-title pt-4">
+                Rehabilitation is the legal process by which an Insolvent (a
+                sequestrated individual) is relieved of the legal implications
+                of being an Insolvent and restored to the legal status of a
+                credit worthy consumer (a “solvent”).
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End services -->
+
+    <div class="page-section pt-0">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 d-none d-lg-block wow">
@@ -48,8 +118,8 @@
                 data-aos-delay="0"
                 data-aos-duration="1000"
                 data-aos-easing="ease-in-out"
-                data-aos-mirror="true"
-                data-aos-once="false"
+                data-aos-mirror="false"
+                data-aos-once="true"
                 data-aos-anchor-placement="top-center"
               >
                 <div class="iconic-item wow fadeInUp">
@@ -72,8 +142,8 @@
                 data-aos-delay="0"
                 data-aos-duration="1000"
                 data-aos-easing="ease-in-out"
-                data-aos-mirror="true"
-                data-aos-once="false"
+                data-aos-mirror="false"
+                data-aos-once="true"
                 data-aos-anchor-placement="top-center"
               >
                 <div class="iconic-item wow fadeInUp">
@@ -97,8 +167,8 @@
                 data-aos-delay="0"
                 data-aos-duration="1000"
                 data-aos-easing="ease-in-out"
-                data-aos-mirror="true"
-                data-aos-once="false"
+                data-aos-mirror="false"
+                data-aos-once="true"
                 data-aos-anchor-placement="top-center"
               >
                 <div class="iconic-item wow fadeInUp">
@@ -128,8 +198,8 @@
                 data-aos-delay="0"
                 data-aos-duration="1000"
                 data-aos-easing="ease-in-out"
-                data-aos-mirror="true"
-                data-aos-once="false"
+                data-aos-mirror="false"
+                data-aos-once="true"
                 data-aos-anchor-placement="top-center"
               >
                 <div class="iconic-item wow fadeInUp">
@@ -149,8 +219,8 @@
                 data-aos-delay="0"
                 data-aos-duration="1000"
                 data-aos-easing="ease-in-out"
-                data-aos-mirror="true"
-                data-aos-once="false"
+                data-aos-mirror="false"
+                data-aos-once="true"
                 data-aos-anchor-placement="top-center"
               >
                 <div class="iconic-item wow fadeInUp">
@@ -170,8 +240,8 @@
                 data-aos-delay="0"
                 data-aos-duration="1000"
                 data-aos-easing="ease-out"
-                data-aos-mirror="true"
-                data-aos-once="false"
+                data-aos-mirror="false"
+                data-aos-once="true"
                 data-aos-anchor-placement="top-center"
               >
                 <div class="iconic-item wow fadeInUp">
@@ -184,11 +254,6 @@
                     <h5>Lack of severe cashflow</h5>
                   </div>
                 </div>
-              </div>
-              <div class="row mt-5">
-                <a href="#" class="btn btn-primary rounded-pill mt-5"
-                  >Apply Now</a
-                >
               </div>
             </div>
             <div class="col-lg-5 py-3">
@@ -209,7 +274,9 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-7 mb-lg-0 d-none d-lg-block">
-            <div class="w-lg-75 wow zoomIn">
+            <div
+              class="img-fluid img-thumbnail mobile-preview shadow floating-animate"
+            >
               <undraw-modern-professional
                 class="undraw"
               ></undraw-modern-professional>
@@ -238,7 +305,7 @@
               </div>
 
               <div class="form-group mt-4 wow fadeInUp">
-                <button type="submit" class="btn btn-primary">
+                <button type="submit" class="btn bg-primary rounded-pill">
                   Contact Us
                 </button>
               </div>
@@ -252,10 +319,13 @@
 
 <script>
 import MfNavBar from "@/components/MfNavBar";
-import UndrawWallet from "@/assets/undraw_wallet.svg";
-import UndrawReceipt from "@/assets/undraw_receipt.svg";
-import UndrawPersonalFinance from "@/assets/undraw_personal_finance.svg";
-import UndrawModernProfessional from "@/assets/undraw_modern_professional.svg";
+import UndrawWallet from "@/assets/img/undraw_wallet.svg";
+import UndrawReceipt from "@/assets/img/undraw_receipt.svg";
+import UndrawPersonalFinance from "@/assets/img/undraw_personal_finance.svg";
+import UndrawModernProfessional from "@/assets/img/undraw_modern_professional.svg";
+import MfLiquidity from "@/assets/img/liquidity.svg";
+import MfRehabilitation from "@/assets/img/budget.svg";
+import MfSequestration from "@/assets/img/revenue.svg";
 
 export default {
   name: "home",
@@ -265,6 +335,9 @@ export default {
     "undraw-receipt": UndrawReceipt,
     "undraw-personal-finance": UndrawPersonalFinance,
     "undraw-modern-professional": UndrawModernProfessional,
+    "mf-liquidity": MfLiquidity,
+    "mf-rehabilitation": MfRehabilitation,
+    "mf-sequestration": MfSequestration,
   },
 };
 </script>
@@ -276,7 +349,43 @@ export default {
   transform: scale(0.35) translate(-10em, -20em);
 }
 
-.btn-secondary {
-  color: #000;
+.services-title {
+  text-align: center;
+}
+
+.liquidity {
+  display: block;
+  margin: auto;
+  overflow: inherit;
+  height: 100px;
+  width: 20%;
+  transform: scale(0.25) translateX(-12.5em);
+}
+
+.rehabilitation {
+  display: block;
+  margin: auto;
+  overflow: inherit;
+  height: 100px;
+  width: 50%;
+}
+
+.sequestration {
+  display: block;
+  margin: auto;
+  overflow: inherit;
+  height: 100px;
+  width: 20%;
+  transform: scale(0.2) translateX(-12.5em);
+}
+
+.btn {
+  padding: 0.4rem 0.5rem;
+  align-self: start;
+  margin: auto;
+}
+
+.btn-secondary:hover {
+  color: #fff;
 }
 </style>
