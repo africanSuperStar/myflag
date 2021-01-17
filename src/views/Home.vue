@@ -1,223 +1,282 @@
 <template>
-  <div class="mf-background-container">
-    <mf-nav-bar></mf-nav-bar>
-    <div class="mf-background">
-      <mf-background></mf-background>
-      <div class="mf-paragraph shadow p-4 mb-5 bg-white rounded-lg">
-        <h5>THE START OF NEW FINANCIAL BEGINNINGS</h5>
-        <p>
-          myflag specializes in professional liquidation, sequestration and
-          rehabilitation of both individuals and businesses. Our dedicated legal
-          and support team have more than a decade of experience and specialise
-          in insolvency matters.
-        </p>
-        <b-button variant="warning">Contact Us</b-button>
+  <div>
+    <div class="mf-background-container">
+      <mf-nav-bar></mf-nav-bar>
+      <div class="hero-caption pt-5">
+        <div class="container h-75">
+          <div class="row align-items-center h-100">
+            <div class="col-lg-6 wow fadeInUp">
+              <h1 class="mb-4">Manage your finances easier</h1>
+              <p class="mb-4">
+                <b>myflag</b> specializes in professional liquidation,
+                sequestration and rehabilitation of both individuals and
+                businesses. Our dedicated legal and support team have more than
+                a decade of experience and specialise in insolvency matters.
+              </p>
+              <b-button href="#" class="btn bg-primary rounded-pill"
+                >Apply Now</b-button
+              >
+            </div>
+            <div class="col-lg-5 py-3 wow">
+              <div
+                class="img-fluid img-thumbnail mobile-preview shadow floating-animate"
+              >
+                <undraw-wallet class="undraw"></undraw-wallet>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <svg
-      class="mf-background__svg"
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 1337.97 684.43"
-    >
-      <path
-        class="mf-background__shape big-square"
-        fill="#16d5d1"
-        d="M546.519 349.271l86.383-56.098 56.097 86.383-86.383 56.098z"
-      />
-      <path
-        class="mf-background__shape triangle"
-        fill="none"
-        stroke="#ff4676"
-        stroke-width="8"
-        d="M372.15 462.17L321 434.58l-4.88 56.16z"
-      />
-      <circle
-        class="mf-background__shape big-circle"
-        fill="#ff4676"
-        cx="1076.52"
-        cy="262.17"
-        r="59"
-      />
-      <path
-        class="mf-background__shape little-square"
-        fill="#ffe430"
-        d="M285.523 262.61l12.372-53.59 53.59 12.372-12.372 53.59z"
-      />
-      <circle
-        class="mf-background__shape hoop"
-        fill="none"
-        stroke="#ffe430"
-        stroke-width="13"
-        cx="905.52"
-        cy="447.17"
-        r="45"
-      />
-      <circle
-        class="mf-background__shape little-circle"
-        fill="#0f1c70"
-        cx="1036.52"
-        cy="203.17"
-        r="27"
-      />
-    </svg>
-    <mf-card-gallery></mf-card-gallery>
+
+    <div class="page-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 d-none d-lg-block wow">
+            <div
+              class="img-fluid img-thumbnail mobile-preview shadow floating-animate"
+            >
+              <undraw-receipt class="undraw"></undraw-receipt>
+            </div>
+          </div>
+          <div class="col-lg-6 py-3 mt-lg-5">
+            <div class="iconic-list">
+              <h1 class="mb-4">We can assist you if</h1>
+              <div
+                data-aos="fade-up"
+                data-aos-offset="0"
+                data-aos-delay="0"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="false"
+                data-aos-anchor-placement="top-center"
+              >
+                <div class="iconic-item wow fadeInUp">
+                  <div
+                    class="iconic-md iconic-text bg-warning fg-white rounded-circle"
+                  >
+                    <span class="mai-cube"></span>
+                  </div>
+                  <div class="iconic-content">
+                    <h5>You are not able to pay all your debt</h5>
+                    <p class="fs-small">
+                      If your liabilities (debt) exceeds your assets.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                data-aos="fade-up"
+                data-aos-offset="0"
+                data-aos-delay="0"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="false"
+                data-aos-anchor-placement="top-center"
+              >
+                <div class="iconic-item wow fadeInUp">
+                  <div
+                    class="iconic-md iconic-text bg-info fg-white rounded-circle"
+                  >
+                    <span class="mai-shield"></span>
+                  </div>
+                  <div class="iconic-content">
+                    <h5>Other debt relief options are not possible for you</h5>
+                    <p class="fs-small">
+                      If you find yourself without any other options. We can
+                      help you.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                data-aos="fade-up"
+                data-aos-offset="0"
+                data-aos-delay="0"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="false"
+                data-aos-anchor-placement="top-center"
+              >
+                <div class="iconic-item wow fadeInUp">
+                  <div
+                    class="iconic-md iconic-text bg-indigo fg-white rounded-circle"
+                  >
+                    <span class="mai-desktop-outline"></span>
+                  </div>
+                  <div class="iconic-content">
+                    <h5>Continuing losses and insufficient capital</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-section pb-0">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 offset-lg-1 py-3 mt-lg-5 wow fadeInUp">
+              <h1 class="mb-4">We can also help with</h1>
+              <div
+                data-aos="fade-up"
+                data-aos-offset="0"
+                data-aos-delay="0"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="false"
+                data-aos-anchor-placement="top-center"
+              >
+                <div class="iconic-item wow fadeInUp">
+                  <div
+                    class="iconic-md iconic-text bg-warning fg-white rounded-circle"
+                  >
+                    <span class="mai-cube"></span>
+                  </div>
+                  <div class="iconic-content">
+                    <h5>Series of creditors issuing legal proceedings</h5>
+                  </div>
+                </div>
+              </div>
+              <div
+                data-aos="fade-up"
+                data-aos-offset="0"
+                data-aos-delay="0"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="false"
+                data-aos-anchor-placement="top-center"
+              >
+                <div class="iconic-item wow fadeInUp">
+                  <div
+                    class="iconic-md iconic-text bg-info fg-white rounded-circle"
+                  >
+                    <span class="mai-shield"></span>
+                  </div>
+                  <div class="iconic-content">
+                    <h5>Shortfall of payments on your assets</h5>
+                  </div>
+                </div>
+              </div>
+              <div
+                data-aos="fade-up"
+                data-aos-offset="0"
+                data-aos-delay="0"
+                data-aos-duration="1000"
+                data-aos-easing="ease-out"
+                data-aos-mirror="true"
+                data-aos-once="false"
+                data-aos-anchor-placement="top-center"
+              >
+                <div class="iconic-item wow fadeInUp">
+                  <div
+                    class="iconic-md iconic-text bg-indigo fg-white rounded-circle"
+                  >
+                    <span class="mai-desktop-outline"></span>
+                  </div>
+                  <div class="iconic-content">
+                    <h5>Lack of severe cashflow</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="row mt-5">
+                <a href="#" class="btn btn-primary rounded-pill mt-5"
+                  >Apply Now</a
+                >
+              </div>
+            </div>
+            <div class="col-lg-5 py-3">
+              <div
+                class="img-fluid img-thumbnail mobile-preview shadow floating-animate"
+              >
+                <undraw-personal-finance
+                  class="undraw"
+                ></undraw-personal-finance>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page-section pt-0">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 mb-lg-0 d-none d-lg-block">
+            <div class="w-lg-75 wow zoomIn">
+              <undraw-modern-professional
+                class="undraw"
+              ></undraw-modern-professional>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <h1 class="wow fadeInUp">
+              Need serious help? <br />
+              Don't worry just contact us
+            </h1>
+
+            <form method="POST" class="mt-5">
+              <div class="form-group wow fadeInUp">
+                <label for="name" class="fw-medium fg-grey">Fullname</label>
+                <input type="text" class="form-control" id="name" />
+              </div>
+
+              <div class="form-group wow fadeInUp">
+                <label for="email" class="fw-medium fg-grey">Email</label>
+                <input type="text" class="form-control" id="email" />
+              </div>
+
+              <div class="form-group wow fadeInUp">
+                <label for="message" class="fw-medium fg-grey">Message</label>
+                <textarea rows="6" class="form-control" id="message"></textarea>
+              </div>
+
+              <div class="form-group mt-4 wow fadeInUp">
+                <button type="submit" class="btn btn-primary">
+                  Contact Us
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
 import MfNavBar from "@/components/MfNavBar";
-import MfCardGallery from "@/components/MfCardGallery";
-import MfBackground from "@/assets/background.svg";
+import UndrawWallet from "@/assets/undraw_wallet.svg";
+import UndrawReceipt from "@/assets/undraw_receipt.svg";
+import UndrawPersonalFinance from "@/assets/undraw_personal_finance.svg";
+import UndrawModernProfessional from "@/assets/undraw_modern_professional.svg";
 
 export default {
   name: "home",
   components: {
     MfNavBar,
-    MfCardGallery,
-    "mf-background": MfBackground,
+    "undraw-wallet": UndrawWallet,
+    "undraw-receipt": UndrawReceipt,
+    "undraw-personal-finance": UndrawPersonalFinance,
+    "undraw-modern-professional": UndrawModernProfessional,
   },
 };
 </script>
 
 <style lang="scss" scoped>
-.mf-background {
-  display: flex;
-  justify-content: flex-end;
-  position: relative;
-}
-.mf-orbital {
-  display: flex;
-  justify-content: flex-end;
-  position: relative;
-}
-.mf-orbital-content {
-  position: absolute;
-  top: 20rem;
-  right: 20rem;
-}
-.mf-paragraph {
-  position: absolute;
-  max-width: 500px;
-  font-size: 1rem;
-  top: 6rem;
-  left: 10rem;
-  right: 20px;
+.undraw {
+  overflow: inherit;
+  width: 50%;
+  transform: scale(0.35) translate(-10em, -20em);
 }
 
-@media screen and (max-width: 1024px) {
-  .mf-paragraph {
-    left: 20px;
-  }
-}
-
-.mf-background__shape {
-  animation-duration: 5s;
-  animation-timing-function: cubic-bezier(0.18, 1.17, 0.03, 1.46);
-  animation-fill-mode: backwards;
-  transform-origin: right;
-  transform-box: fill-box;
-}
-
-.mf-background-container {
-  background: radial-gradient(#dfdfdf 8%, transparent 8%), transparent;
-  background-position: 0 0, 25px 25px;
-  background-size: 25px 25px;
-  min-height: 100vh;
-}
-
-.mf-background {
-  position: relative;
-  min-height: 100vh;
-  display: flex;
-  align-items: flex-end;
-}
-
-.mf-background__svg {
-  position: absolute;
-  width: 100%;
-  top: 80%;
-  transform: translateY(-50%);
-  z-index: -1;
-  will-change: transform;
-}
-.mf-background__title {
-  font-family: Avenir, Futura, "Open Sans", "Gill Sans", "Helvetica Neue", Ariel,
-    sans-serif;
-  font-weight: bold;
-  font-size: 6vw;
-  margin: 0;
-}
-
-.big-square {
-  animation-name: bigSquare;
-}
-@keyframes bigSquare {
-  from {
-    transform: translateY(10%) rotate(-80deg) scale(0);
-  }
-  to {
-    transform: translateY(0) rotate(0deg) scale(1);
-  }
-}
-.little-square {
-  animation-name: littleSquare;
-}
-@keyframes littleSquare {
-  from {
-    transform: translate(226%, 183%) rotate(140deg) scale(0);
-  }
-  to {
-    transform: translate(0%, 0%) rotate(0deg) scale(1);
-  }
-}
-.triangle {
-  animation-name: triangle;
-}
-@keyframes triangle {
-  from {
-    transform: rotate(-140deg) scale(0);
-  }
-  to {
-    transform: rotate(0deg) scale(1);
-  }
-}
-.hoop {
-  animation-name: hoop;
-}
-@keyframes hoop {
-  from {
-    transform: translate(-160%, -33%) scale(0);
-  }
-  to {
-    transform: translate(0%, 0%) scale(1);
-  }
-}
-.big-circle {
-  animation-name: bigCircle;
-}
-@keyframes bigCircle {
-  from {
-    transform: scale(0) translate(60%, 3%);
-  }
-  to {
-    transform: scale(1) translate(0%, 0%);
-  }
-}
-.little-circle {
-  animation-name: littleCircle;
-}
-@keyframes littleCircle {
-  from {
-    transform: scale(0);
-  }
-  to {
-    transform: scale(1);
-  }
-}
-
-@for $i from 1 to 12 {
-  .mf-background__shape:nth-child(#{$i}) {
-    animation-delay: $i * 0.16s;
-  }
+.btn-secondary {
+  color: #000;
 }
 </style>
