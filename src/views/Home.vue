@@ -2,11 +2,18 @@
   <div>
     <div class="mf-background-container">
       <mf-nav-bar></mf-nav-bar>
+      <div class="container-fluid h-75 contact">
+        <div class="row px-2 justify-content-end">
+          <div class="col-lg-2">Address: Southdowns Ridge</div>
+          <div class="col-lg-3">Office hours: Mon – Friday; 08h30 – 16h00</div>
+          <div class="col-lg-2">Contact Number: 0835028866</div>
+        </div>
+      </div>
       <div class="hero-caption pt-5">
         <div class="container h-75">
           <div class="row align-items-center h-100">
             <div class="col-lg-6 wow fadeInUp">
-              <h1 class="mb-4">Manage your finances easier</h1>
+              <h1 class="mb-4">The Start of New Financial Beginnings</h1>
               <p class="mb-4">
                 <b>myflag</b> specializes in professional liquidation,
                 sequestration and rehabilitation of both individuals and
@@ -17,7 +24,7 @@
                 >Apply Online</b-button
               >
             </div>
-            <div class="col-lg-5 py-3 wow">
+            <div class="col-lg-6 pl-4 py-3 align-self-center">
               <div
                 class="img-fluid img-thumbnail mobile-preview shadow floating-animate"
               >
@@ -36,63 +43,73 @@
           <h2 class="mb-4">Services</h2>
         </div>
         <div class="row align-items-start">
-          <div class="col-sm-12 col-lg-4 pt-4">
-            <div
-              class="img-fluid"
-              data-aos="zoom-in"
-              data-aos-offset="0"
-              data-aos-delay="0"
-              data-aos-duration="300"
-              data-aos-easing="ease-in-out"
-              data-aos-mirror="false"
-              data-aos-once="true"
-              data-aos-anchor-placement="top-center"
-            >
-              <h5 class="services-title">Liquidation</h5>
-              <mf-liquidity class="liquidity"></mf-liquidity>
-            </div>
+          <div class="col-sm-12 col-lg-4 pt-4 pb-7">
+            <a href="/liquidation">
+              <div
+                class="img-fluid"
+                data-aos="zoom-in"
+                data-aos-offset="0"
+                data-aos-delay="0"
+                data-aos-duration="300"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="false"
+                data-aos-once="true"
+                data-aos-anchor-placement="top-center"
+              >
+                <h5 class="services-title">Liquidation</h5>
+                <mf-liquidity class="liquidity"></mf-liquidity>
+                <p class="services-title pt-7">
+                  Liquidation is a legal process by which a legal entity is
+                  closed down, because the business has become insolvent.
+                </p>
+              </div>
+            </a>
           </div>
           <div class="col-sm-6 col-lg-4 pt-4">
-            <div
-              class="img-fluid"
-              data-aos="zoom-in"
-              data-aos-offset="0"
-              data-aos-delay="0"
-              data-aos-duration="300"
-              data-aos-easing="ease-in-out"
-              data-aos-mirror="false"
-              data-aos-once="true"
-              data-aos-anchor-placement="top-center"
-            >
-              <h5 class="services-title pb-2">Sequestration</h5>
-              <mf-sequestration class="sequestration"></mf-sequestration>
-              <p class="services-title pt-7">
-                Sequestration is declaring yourself insolvent/bankrupt through a
-                High Court application under the Insolvency Act.
-              </p>
-            </div>
+            <a href="/sequestration">
+              <div
+                class="img-fluid"
+                data-aos="zoom-in"
+                data-aos-offset="0"
+                data-aos-delay="0"
+                data-aos-duration="300"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="false"
+                data-aos-once="true"
+                data-aos-anchor-placement="top-center"
+              >
+                <h5 class="services-title">Sequestration</h5>
+                <mf-sequestration class="sequestration"></mf-sequestration>
+                <p class="services-title pt-7">
+                  Sequestration is declaring yourself insolvent/bankrupt through
+                  a High Court application under the Insolvency Act.
+                </p>
+              </div>
+            </a>
           </div>
           <div class="col-sm-6 col-lg-4 pt-4">
-            <div
-              class="img-fluid"
-              data-aos="zoom-in"
-              data-aos-offset="0"
-              data-aos-delay="0"
-              data-aos-duration="300"
-              data-aos-easing="ease-in-out"
-              data-aos-mirror="false"
-              data-aos-once="true"
-              data-aos-anchor-placement="top-center"
-            >
-              <h5 class="services-title pb-5">Rehabilitation</h5>
-              <mf-rehabilitation class="rehabilitation"></mf-rehabilitation>
-              <p class="services-title pt-4">
-                Rehabilitation is the legal process by which an Insolvent (a
-                sequestrated individual) is relieved of the legal implications
-                of being an Insolvent and restored to the legal status of a
-                credit worthy consumer (a “solvent”).
-              </p>
-            </div>
+            <a href="/rehabilitation">
+              <div
+                class="img-fluid"
+                data-aos="zoom-in"
+                data-aos-offset="0"
+                data-aos-delay="0"
+                data-aos-duration="300"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="false"
+                data-aos-once="true"
+                data-aos-anchor-placement="top-center"
+              >
+                <h5 class="services-title pb-5">Rehabilitation</h5>
+                <mf-rehabilitation class="rehabilitation"></mf-rehabilitation>
+                <p class="services-title pt-4">
+                  Rehabilitation is the legal process by which an Insolvent (a
+                  sequestrated individual) is relieved of the legal implications
+                  of being an Insolvent and restored to the legal status of a
+                  credit worthy consumer (a “solvent”).
+                </p>
+              </div>
+            </a>
           </div>
         </div>
       </div>
@@ -122,9 +139,9 @@
                 data-aos-once="true"
                 data-aos-anchor-placement="top-center"
               >
-                <div class="iconic-item wow fadeInUp">
+                <div class="iconic-item">
                   <div
-                    class="iconic-md iconic-text bg-warning fg-white rounded-circle"
+                    class="iconic-sm iconic-text bg-warning fg-white rounded-circle"
                   >
                     <span class="mai-cube"></span>
                   </div>
@@ -146,9 +163,9 @@
                 data-aos-once="true"
                 data-aos-anchor-placement="top-center"
               >
-                <div class="iconic-item wow fadeInUp">
+                <div class="iconic-item">
                   <div
-                    class="iconic-md iconic-text bg-info fg-white rounded-circle"
+                    class="iconic-sm iconic-text bg-info fg-white rounded-circle"
                   >
                     <span class="mai-shield"></span>
                   </div>
@@ -173,7 +190,7 @@
               >
                 <div class="iconic-item wow fadeInUp">
                   <div
-                    class="iconic-md iconic-text bg-indigo fg-white rounded-circle"
+                    class="iconic-sm iconic-text bg-indigo fg-white rounded-circle"
                   >
                     <span class="mai-desktop-outline"></span>
                   </div>
@@ -190,7 +207,7 @@
       <div class="page-section pb-0">
         <div class="container">
           <div class="row">
-            <div class="col-lg-6 offset-lg-1 py-3 mt-lg-5 wow fadeInUp">
+            <div class="col-lg-6 offset-lg-1 pb-7 mt-lg-5 wow fadeInUp">
               <h1 class="mb-4">We can also help with</h1>
               <div
                 data-aos="fade-up"
@@ -204,7 +221,7 @@
               >
                 <div class="iconic-item wow fadeInUp">
                   <div
-                    class="iconic-md iconic-text bg-warning fg-white rounded-circle"
+                    class="iconic-sm iconic-text bg-warning fg-white rounded-circle"
                   >
                     <span class="mai-cube"></span>
                   </div>
@@ -225,7 +242,7 @@
               >
                 <div class="iconic-item wow fadeInUp">
                   <div
-                    class="iconic-md iconic-text bg-info fg-white rounded-circle"
+                    class="iconic-sm iconic-text bg-info fg-white rounded-circle"
                   >
                     <span class="mai-shield"></span>
                   </div>
@@ -246,7 +263,7 @@
               >
                 <div class="iconic-item wow fadeInUp">
                   <div
-                    class="iconic-md iconic-text bg-indigo fg-white rounded-circle"
+                    class="iconic-sm iconic-text bg-indigo fg-white rounded-circle"
                   >
                     <span class="mai-desktop-outline"></span>
                   </div>
@@ -256,7 +273,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-5 py-3">
+            <div class="col-lg-5 pt-5">
               <div
                 class="img-fluid img-thumbnail mobile-preview shadow floating-animate"
               >
@@ -270,7 +287,7 @@
       </div>
     </div>
 
-    <div class="page-section pt-0">
+    <div class="page-section">
       <div class="container">
         <div class="row">
           <div class="col-lg-7 mb-lg-0 d-none d-lg-block">
@@ -343,6 +360,15 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+a:visited {
+  color: #3a3542;
+}
+
+.contact {
+  color: #000;
+  background-color: #c7c7c7;
+}
+
 .undraw {
   overflow: inherit;
   width: 50%;

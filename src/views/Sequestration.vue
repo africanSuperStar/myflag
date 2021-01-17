@@ -1,6 +1,251 @@
 <template>
   <div class="mf-background-container">
     <mf-nav-bar></mf-nav-bar>
+    <div class="container-fluid h-75 contact">
+      <div class="row px-2 justify-content-end">
+        <div class="col-lg-2">Address: Southdowns Ridge</div>
+        <div class="col-lg-3">Office hours: Mon – Friday; 08h30 – 16h00</div>
+        <div class="col-lg-2">Contact Number: 0835028866</div>
+      </div>
+    </div>
+    <div class="hero-caption py-5">
+      <div class="container h-75">
+        <div class="row align-items-center h-100">
+          <div class="col-lg-12">
+            <h1 class="mb-4">Voluntary Sequestration</h1>
+            <div class="row">
+              <div class="col-lg-3">
+                <b-card
+                  title="Start a New Way of Life by being Sequestrated!"
+                  img-src="@/assets/img/freedom.jpg"
+                  img-alt="Financial Freedom"
+                  img-top
+                  tag="article"
+                  style="max-width: 20rem"
+                  class="mb-2"
+                >
+                  <b-card-text>
+                    Financial freedom can be yours in a few simple steps.
+                  </b-card-text>
+
+                  <b-button href="#" class="btn bg-primary rounded-pill"
+                    >Get Sequestrated</b-button
+                  >
+                </b-card>
+              </div>
+              <div class="col-lg-3">
+                <b-card
+                  title="No More Debt!"
+                  img-src="@/assets/img/freedom-2.jpg"
+                  img-alt="No more debt!"
+                  img-top
+                  tag="article"
+                  style="max-width: 20rem"
+                  class="mb-2"
+                >
+                  <b-card-text> Let us help you get debt free. </b-card-text>
+                </b-card>
+              </div>
+              <div class="col-lg-3">
+                <b-card
+                  title="A brand new start at a clear record"
+                  img-src="@/assets/img/clear.jpeg"
+                  img-alt="Clear record"
+                  img-top
+                  tag="article"
+                  style="max-width: 20rem"
+                  class="mb-2"
+                >
+                  <b-card-text> // Needs some text here. </b-card-text>
+                </b-card>
+              </div>
+              <div class="col-lg-3">
+                <b-card
+                  title="No garneshing orders!"
+                  img-src="@/assets/img/freedom-3.jpg"
+                  img-alt="No garneshing orders"
+                  img-top
+                  tag="article"
+                  style="max-width: 20rem"
+                  class="mb-2"
+                >
+                  <b-card-text> // Needs some text here. </b-card-text>
+                </b-card>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="container">
+        <b-jumbotron>
+          <template #lead> The Sequestration Process. </template>
+          <hr class="my-4" />
+          <div class="iconic-item">
+            <div
+              class="iconic-sm iconic-text bg-warning fg-white rounded-circle"
+            >
+              <span class="mai-cube"></span>
+            </div>
+            <div class="iconic-content">
+              <p>We initiate the court process, with obtaining a court date.</p>
+            </div>
+          </div>
+          <div class="iconic-item">
+            <div
+              class="iconic-sm iconic-text bg-warning fg-white rounded-circle"
+            >
+              <span class="mai-cube"></span>
+            </div>
+            <div class="iconic-content">
+              <p>
+                A letter gets sent out to all your creditors to inform them that
+                you are applying for sequestration.
+              </p>
+            </div>
+          </div>
+          <div class="iconic-item">
+            <div
+              class="iconic-sm iconic-text bg-warning fg-white rounded-circle"
+            >
+              <span class="mai-cube"></span>
+            </div>
+            <div class="iconic-content">
+              <p>
+                From that point forward you do not have to pay any creditors at
+                all.
+              </p>
+            </div>
+          </div>
+          <div class="iconic-item">
+            <div class="iconic-sm iconic-text bg-info fg-white rounded-circle">
+              <span class="mai-shield"></span>
+            </div>
+            <div class="iconic-content">
+              <p>You do not need to be present on the day of hearing.</p>
+            </div>
+          </div>
+          <div class="iconic-item">
+            <div
+              class="iconic-sm iconic-text bg-warning fg-white rounded-circle"
+            >
+              <span class="mai-cube"></span>
+            </div>
+            <div class="iconic-content">
+              <p>A Trustee is appointed to administer your estate.</p>
+            </div>
+          </div>
+          <div class="iconic-item">
+            <div
+              class="iconic-sm iconic-text bg-warning fg-white rounded-circle"
+            >
+              <span class="mai-cube"></span>
+            </div>
+            <div class="iconic-content">
+              <p>
+                After a certain period of time you can apply for your
+                rehabilitation.
+              </p>
+            </div>
+          </div>
+          <div class="iconic-item">
+            <div
+              class="iconic-sm iconic-text bg-warning fg-white rounded-circle"
+            >
+              <span class="mai-cube"></span>
+            </div>
+            <div class="iconic-content">
+              <p>
+                After this, you will start on a clean slate and ultimately
+                regain financial stability.
+              </p>
+            </div>
+          </div>
+        </b-jumbotron>
+      </div>
+    </div>
+
+    <div class="container pt-4 pb-8">
+      <div class="row">
+        <div class="col my-4">
+          <h3>The Pros of Sequestration</h3>
+        </div>
+      </div>
+      <div class="accordion" role="tablist">
+        <b-card no-body class="mb-1">
+          <b-card-header
+            header-tag="header"
+            class="p-1 btn-outline-primary"
+            role="tab"
+          >
+            <b-button block v-b-toggle.accordion-1 variant="white"
+              >Your High Court Application</b-button
+            >
+          </b-card-header>
+          <b-collapse
+            id="accordion-1"
+            visible
+            accordion="my-accordion"
+            role="tabpanel"
+          >
+            <b-card-body>
+              <b-card-text
+                >There is no need to appear in High Court. An advocate appears
+                in High Court on your behalf. This is a swift and quick
+                application.
+              </b-card-text>
+            </b-card-body>
+          </b-collapse>
+        </b-card>
+
+        <b-card no-body class="mb-1">
+          <b-card-header
+            header-tag="header"
+            class="p-1 btn-outline-primary"
+            role="tab"
+          >
+            <b-button block v-b-toggle.accordion-2 variant="white"
+              >Your Debt</b-button
+            >
+          </b-card-header>
+          <b-collapse id="accordion-2" accordion="my-accordion" role="tabpanel">
+            <b-card-body>
+              <b-card-text
+                >* You get rid of all your debt, including arrear
+                taxes.</b-card-text
+              >
+              <b-card-text
+                >* All debt prior to or on date of sequestration falls
+                away.</b-card-text
+              >
+            </b-card-body>
+          </b-collapse>
+        </b-card>
+
+        <b-card no-body class="mb-1">
+          <b-card-header
+            header-tag="header"
+            class="p-1 btn-outline-primary"
+            role="tab"
+          >
+            <b-button block v-b-toggle.accordion-3 variant="white"
+              >Your Estate</b-button
+            >
+          </b-card-header>
+          <b-collapse id="accordion-3" accordion="my-accordion" role="tabpanel">
+            <b-card-body>
+              <b-card-text
+                >Your policies, annuities, pension and personal injury claims
+                etc. are protected and excluded from your insolvent
+                estate.</b-card-text
+              >
+            </b-card-body>
+          </b-collapse>
+        </b-card>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -16,6 +261,20 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+a:visited {
+  color: #3a3542;
+}
+
+.contact {
+  color: #000;
+  background-color: #c7c7c7;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
 .mf-background-container {
   background: radial-gradient(#dfdfdf 8%, transparent 8%), transparent;
   background-position: 0 0, 25px 25px;

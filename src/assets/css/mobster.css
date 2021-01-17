@@ -1177,8 +1177,8 @@ hr {
   display: inline-block;
   margin: 0;
   padding: 0;
-  width: 50px;
-  height: 50px;
+  width: 25px;
+  height: 25px;
   overflow: hidden;
   text-align: center;
 }
@@ -1193,22 +1193,22 @@ hr {
   line-height: inherit;
 }
 
-.iconic-md {
+.iconic-sm {
   display: inline-block;
   margin: 0;
   padding: 0;
-  width: 70px;
-  height: 70px;
+  width: 25px;
+  height: 25px;
   overflow: hidden;
   text-align: center;
 }
 
-.iconic-md.iconic-text {
+.iconic-sm.iconic-text {
   line-height: 70px;
   border-radius: 50%;
 }
 
-.iconic-md.iconic-text>span {
+.iconic-sm.iconic-text>span {
   font-size: 32px;
   line-height: inherit;
 }
@@ -1234,7 +1234,7 @@ hr {
 }
 
 .iconic-sm img,
-.iconic-md img,
+.iconic-sm img,
 .iconic-lg img {
   width: 100%;
   height: 100%;
