@@ -17,7 +17,7 @@
               <b>Liquidation</b> is a legal process by which a legal entity is
               closed down, because the business has become insolvent.
             </p>
-            <b-button to="/contact-us" class="btn bg-primary rounded-pill"
+            <b-button to="/apply-online" class="btn bg-primary rounded-pill"
               >Apply Online</b-button
             >
           </div>

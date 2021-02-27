@@ -18,7 +18,7 @@
           >
             {{ routes.name }}
           </b-nav-item>
-          <b-button to="/contact-us" class="btn bg-primary rounded-pill"
+          <b-button to="/apply-online" class="btn bg-primary rounded-pill"
             >Apply Online</b-button
           >
         </b-navbar-nav>

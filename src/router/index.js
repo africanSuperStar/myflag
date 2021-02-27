@@ -16,6 +16,11 @@ const routes = [
     component: () => import(/* webpackChunkName: "contact-us" */ '@/views/ContactUs.vue')
   },
   {
+    path: '/apply-online',
+    name: 'Apply Online',
+    component: () => import(/* webpackChunkName: "apply-online"*/ '@/views/ApplyOnline.vue')
+  },
+  {
     path: '/faqs',
     name: 'FAQ',
     component: () => import(/* webpackChunkName: "about" */ '@/views/FAQ.vue')

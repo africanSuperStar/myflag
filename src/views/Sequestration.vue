@@ -56,7 +56,6 @@
                   style="max-width: 20rem"
                   class="mb-2"
                 >
-                  <b-card-text> // Needs some text here. </b-card-text>
                 </b-card>
               </div>
               <div class="col-lg-3">
@@ -69,7 +68,6 @@
                   style="max-width: 20rem"
                   class="mb-2"
                 >
-                  <b-card-text> // Needs some text here. </b-card-text>
                 </b-card>
               </div>
             </div>
@@ -244,6 +242,177 @@
             </b-card-body>
           </b-collapse>
         </b-card>
+
+        <b-card no-body class="mb-1">
+          <b-card-header
+            header-tag="header"
+            class="p-1 btn-outline-primary"
+            role="tab"
+          >
+            <b-button block v-b-toggle.accordion-4 variant="white"
+              >Your Garnishee Orders</b-button
+            >
+          </b-card-header>
+          <b-collapse id="accordion-4" accordion="my-accordion" role="tabpanel">
+            <b-card-body>
+              <b-card-text
+                >Once sequestration is granted all garnishee orders against your
+                salary are removed.
+              </b-card-text>
+            </b-card-body>
+          </b-collapse>
+        </b-card>
+
+        <b-card no-body class="mb-1">
+          <b-card-header
+            header-tag="header"
+            class="p-1 btn-outline-primary"
+            role="tab"
+          >
+            <b-button block v-b-toggle.accordion-5 variant="white"
+              >Your Salary</b-button
+            >
+          </b-card-header>
+          <b-collapse id="accordion-5" accordion="my-accordion" role="tabpanel">
+            <b-card-body>
+              <b-card-text
+                >Your creditors are legally not allowed to attach your income or
+                salary a month.
+              </b-card-text>
+            </b-card-body>
+          </b-collapse>
+        </b-card>
+
+        <b-card no-body class="mb-1">
+          <b-card-header
+            header-tag="header"
+            class="p-1 btn-outline-primary"
+            role="tab"
+          >
+            <b-button block v-b-toggle.accordion-6 variant="white"
+              >Your Future</b-button
+            >
+          </b-card-header>
+          <b-collapse id="accordion-6" accordion="my-accordion" role="tabpanel">
+            <b-card-body>
+              <b-card-text
+                >After 6 months or 4 years (depending on circumstances) you can
+                apply for rehabilitation and your credit status will be
+                reinstated.
+              </b-card-text>
+            </b-card-body>
+          </b-collapse>
+        </b-card>
+      </div>
+      <div class="container pt-4 pb-8">
+        <div class="row">
+          <div class="col my-4">
+            <h3>The Cons of Sequestration</h3>
+          </div>
+        </div>
+        <div class="accordion" role="tablist">
+          <b-card no-body class="mb-1">
+            <b-card-header
+              header-tag="header"
+              class="p-1 btn-outline-primary"
+              role="tab"
+            >
+              <b-button block v-b-toggle.accordion-7 variant="white"
+                >Can I acquire more debt?</b-button
+              >
+            </b-card-header>
+            <b-collapse
+              id="accordion-7"
+              visible
+              accordion="my-accordion"
+              role="tabpanel"
+            >
+              <b-card-body>
+                <b-card-text
+                  >You are blacklisted on all credit bureaus and cannot incur
+                  any debt until you have applied for rehabilitation.
+                </b-card-text>
+              </b-card-body>
+            </b-collapse>
+          </b-card>
+
+          <b-card no-body class="mb-1">
+            <b-card-header
+              header-tag="header"
+              class="p-1 btn-outline-primary"
+              role="tab"
+            >
+              <b-button block v-b-toggle.accordion-8 variant="white"
+                >Can I start a new company?</b-button
+              >
+            </b-card-header>
+            <b-collapse
+              id="accordion-8"
+              visible
+              accordion="my-accordion"
+              role="tabpanel"
+            >
+              <b-card-body>
+                <b-card-text
+                  >You will not be able to act as a member of Close Corporation
+                  or director of the Company.
+                </b-card-text>
+              </b-card-body>
+            </b-collapse>
+          </b-card>
+
+          <b-card no-body class="mb-1">
+            <b-card-header
+              header-tag="header"
+              class="p-1 btn-outline-primary"
+              role="tab"
+            >
+              <b-button block v-b-toggle.accordion-9 variant="white"
+                >Can I administrate a trust account?</b-button
+              >
+            </b-card-header>
+            <b-collapse
+              id="accordion-9"
+              visible
+              accordion="my-accordion"
+              role="tabpanel"
+            >
+              <b-card-body>
+                <b-card-text
+                  >You will be unable to have or administrate a trust account,
+                  ie. Attorneys Trust Account, Estate Agent Trust Account.
+                </b-card-text>
+              </b-card-body>
+            </b-collapse>
+          </b-card>
+
+          <b-card no-body class="mb-1">
+            <b-card-header
+              header-tag="header"
+              class="p-1 btn-outline-primary"
+              role="tab"
+            >
+              <b-button block v-b-toggle.accordion-10 variant="white"
+                >Will my job be affected?</b-button
+              >
+            </b-card-header>
+            <b-collapse
+              id="accordion-10"
+              visible
+              accordion="my-accordion"
+              role="tabpanel"
+            >
+              <b-card-body>
+                <b-card-text
+                  >Certain high-profile jobs can be affected negatively and thus
+                  the company’s policies and regulations should be consulted.
+                  Alternatively, our offices should be contacted prior to
+                  proceeding with the sequestration application.
+                </b-card-text>
+              </b-card-body>
+            </b-collapse>
+          </b-card>
+        </div>
       </div>
     </div>
   </div>

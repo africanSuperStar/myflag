@@ -1,0 +1,83 @@
+[debug] [2021-02-25T19:12:16.240Z] ----------------------------------------------------------------------
+[debug] [2021-02-25T19:12:16.241Z] Command:       /Users/cdebruyn/.nvm/versions/node/v14.8.0/bin/node /Users/cdebruyn/.nvm/versions/node/v14.8.0/bin/firebase functions:shell
+[debug] [2021-02-25T19:12:16.241Z] CLI Version:   8.18.0
+[debug] [2021-02-25T19:12:16.241Z] Platform:      darwin
+[debug] [2021-02-25T19:12:16.242Z] Node Version:  v14.8.0
+[debug] [2021-02-25T19:12:16.242Z] Time:          Thu Feb 25 2021 21:12:16 GMT+0200 (South Africa Standard Time)
+[debug] [2021-02-25T19:12:16.242Z] ----------------------------------------------------------------------
+[debug] [2021-02-25T19:12:16.243Z] 
+[debug] [2021-02-25T19:12:16.248Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-02-25T19:12:16.249Z] > authorizing via signed-in user
+[debug] [2021-02-25T19:12:16.249Z] [iam] checking project myflag-za for permissions ["firebase.projects.get"]
+[debug] [2021-02-25T19:12:16.251Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/myflag-za:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2021-02-25T19:12:16.900Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 25 Feb 2021 19:12:16 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=277","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[warn] ⚠  Your requested "node" version "12" doesn't match your global version "14" {"metadata":{"emulator":{"name":"functions"},"message":"Your requested \"node\" version \"12\" doesn't match your global version \"14\""}}
+[debug] [2021-02-25T19:12:16.913Z] defaultcredentials: writing to file /Users/cdebruyn/.config/firebase/debruyn_sarel_gmail.com_application_default_credentials.json
+[debug] [2021-02-25T19:12:16.914Z] DEBUG: Setting GAC to /Users/cdebruyn/.config/firebase/debruyn_sarel_gmail.com_application_default_credentials.json
+[debug] [2021-02-25T19:12:16.921Z] [functions] Watching "/Users/cdebruyn/Development/vue/myflag/functions" for Cloud Functions...
+[debug] [2021-02-25T19:12:16.931Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2021-02-25T19:12:16.931Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2021-02-25T19:12:16.932Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2021-02-25T19:12:16.932Z] DEBUG: [worker-~diagnostic~-896c020b-8ff2-4fc5-b4da-ede17b96016b]: Assigning socketPath: /var/folders/zq/7m4zn1w50wq3mgncxf50yh_80000gn/T/fire_emu_76612.sock
+[debug] [2021-02-25T19:12:16.932Z] DEBUG: [worker-~diagnostic~-896c020b-8ff2-4fc5-b4da-ede17b96016b]: BUSY
+[debug] [2021-02-25T19:12:17.075Z] DEBUG: [runtime-status] [76612] Functions runtime initialized. {"cwd":"/Users/cdebruyn/Development/vue/myflag/functions","node_version":"14.8.0"}
+[debug] [2021-02-25T19:12:17.076Z] DEBUG: [runtime-status] [76612] Disabled runtime features: undefined
+[debug] [2021-02-25T19:12:17.079Z] DEBUG: [runtime-status] [76612] Resolved module firebase-admin {"declared":true,"installed":true,"version":"9.4.2","resolution":"/Users/cdebruyn/Development/vue/myflag/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2021-02-25T19:12:17.080Z] DEBUG: [runtime-status] [76612] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.0","resolution":"/Users/cdebruyn/Development/vue/myflag/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2021-02-25T19:12:17.082Z] DEBUG: [runtime-status] [76612] Found local functions config: /Users/cdebruyn/Development/vue/myflag/functions/.runtimeconfig.json
+[debug] [2021-02-25T19:12:17.082Z] DEBUG: [runtime-status] [76612] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.0","resolution":"/Users/cdebruyn/Development/vue/myflag/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2021-02-25T19:12:17.084Z] DEBUG: [runtime-status] [76612] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}]
+[debug] [2021-02-25T19:12:17.085Z] DEBUG: [runtime-status] [76612] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.0","resolution":"/Users/cdebruyn/Development/vue/myflag/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2021-02-25T19:12:17.141Z] DEBUG: [runtime-status] [76612] Checked functions.config() {"config":{"recaptcha":{"sitekey":"6Ld2jU0aAAAAAEXdlq4I3QzrLBcrOyjHWrGz6qys"},"someservice":{"key":"myflag_password","id":"bubNeq-2jexge-necfeh"},"myflag":{"myflag_clientid":"645850271255-lcaesp1go15jvgh0t27ufdvivqar1igi.apps.googleusercontent.com","myflag_email":"myflag.za@gmail.com","key":"myflag_email","myflag_client_secret":"BjWy2rf4JCy9JeAKThSwdApH","id":"myflag.za@gmail.com","refresh_token":"1//04eBMR_blAQw8CgYIARAAGAQSNwF-L9Irl0ozQ8r8Tbe89RH3wSJ7ZX1Uud11puV1N03Ywswtro_B8qa2xQ-YI_6AlL20IYd8FpU"}}}
+[debug] [2021-02-25T19:12:17.142Z] DEBUG: [runtime-status] [76612] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.13.0","resolution":"/Users/cdebruyn/Development/vue/myflag/functions/node_modules/firebase-functions/lib/index.js"}}
+[debug] [2021-02-25T19:12:17.142Z] DEBUG: [runtime-status] [76612] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.0","resolution":"/Users/cdebruyn/Development/vue/myflag/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2021-02-25T19:12:17.143Z] DEBUG: [runtime-status] [76612] Resolved module firebase-admin {"declared":true,"installed":true,"version":"9.4.2","resolution":"/Users/cdebruyn/Development/vue/myflag/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2021-02-25T19:12:17.143Z] DEBUG: [runtime-status] [76612] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.0","resolution":"/Users/cdebruyn/Development/vue/myflag/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2021-02-25T19:12:17.143Z] DEBUG: [runtime-status] [76612] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"9.4.2","resolution":"/Users/cdebruyn/Development/vue/myflag/functions/node_modules/firebase-admin/lib/index.js"}}
+[debug] [2021-02-25T19:12:17.205Z] DEBUG: [runtime-status] [76612] initializeApp(DEFAULT) {"databaseURL":"https://myflag-za.firebaseio.com","storageBucket":"myflag-za.appspot.com","projectId":"myflag-za"}
+[debug] [2021-02-25T19:12:17.209Z] DEBUG: [worker-~diagnostic~-896c020b-8ff2-4fc5-b4da-ede17b96016b]: IDLE
+[debug] [2021-02-25T19:12:17.210Z] [functions[applyOnline]] http function initialized (http://localhost:5000/myflag-za/us-central1/applyOnline).
+[info] i  functions: Loaded functions: applyOnline 
+[warn] ⚠  functions: The following emulators are not running, calls to these services will affect production: firestore, database, pubsub 
+[debug] [2021-02-25T19:12:31.615Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2021-02-25T19:12:31.615Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2021-02-25T19:12:31.616Z] Accepted request GET /myflag-za/us-central1/applyOnline --> applyOnline
+[debug] [2021-02-25T19:12:31.622Z] DEBUG: [worker-pool] addWorker(applyOnline)
+[debug] [2021-02-25T19:12:31.622Z] DEBUG: [worker-pool] Adding worker with key applyOnline, total=1
+[debug] [2021-02-25T19:12:31.622Z] DEBUG: [worker-pool] submitWork(triggerId=applyOnline)
+[debug] [2021-02-25T19:12:31.622Z] DEBUG: [worker-applyOnline-6e5614e3-781f-48c8-89cb-62c7fc0cc595]: Assigning socketPath: /var/folders/zq/7m4zn1w50wq3mgncxf50yh_80000gn/T/fire_emu_76664.sock
+[debug] [2021-02-25T19:12:31.622Z] DEBUG: [worker-applyOnline-6e5614e3-781f-48c8-89cb-62c7fc0cc595]: BUSY
+[debug] [2021-02-25T19:12:31.761Z] DEBUG: [runtime-status] [76664] Functions runtime initialized. {"cwd":"/Users/cdebruyn/Development/vue/myflag/functions","node_version":"14.8.0"}
+[debug] [2021-02-25T19:12:31.762Z] DEBUG: [runtime-status] [76664] Disabled runtime features: undefined
+[debug] [2021-02-25T19:12:31.764Z] DEBUG: [runtime-status] [76664] Resolved module firebase-admin {"declared":true,"installed":true,"version":"9.4.2","resolution":"/Users/cdebruyn/Development/vue/myflag/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2021-02-25T19:12:31.765Z] DEBUG: [runtime-status] [76664] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.0","resolution":"/Users/cdebruyn/Development/vue/myflag/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2021-02-25T19:12:31.765Z] DEBUG: [runtime-status] [76664] Found local functions config: /Users/cdebruyn/Development/vue/myflag/functions/.runtimeconfig.json
+[debug] [2021-02-25T19:12:31.766Z] DEBUG: [runtime-status] [76664] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.0","resolution":"/Users/cdebruyn/Development/vue/myflag/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2021-02-25T19:12:31.767Z] DEBUG: [runtime-status] [76664] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}]
+[debug] [2021-02-25T19:12:31.767Z] DEBUG: [runtime-status] [76664] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.0","resolution":"/Users/cdebruyn/Development/vue/myflag/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2021-02-25T19:12:31.794Z] DEBUG: [runtime-status] [76664] Checked functions.config() {"config":{"recaptcha":{"sitekey":"6Ld2jU0aAAAAAEXdlq4I3QzrLBcrOyjHWrGz6qys"},"someservice":{"key":"myflag_password","id":"bubNeq-2jexge-necfeh"},"myflag":{"myflag_clientid":"645850271255-lcaesp1go15jvgh0t27ufdvivqar1igi.apps.googleusercontent.com","myflag_email":"myflag.za@gmail.com","key":"myflag_email","myflag_client_secret":"BjWy2rf4JCy9JeAKThSwdApH","id":"myflag.za@gmail.com","refresh_token":"1//04eBMR_blAQw8CgYIARAAGAQSNwF-L9Irl0ozQ8r8Tbe89RH3wSJ7ZX1Uud11puV1N03Ywswtro_B8qa2xQ-YI_6AlL20IYd8FpU"}}}
+[debug] [2021-02-25T19:12:31.794Z] DEBUG: [runtime-status] [76664] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.13.0","resolution":"/Users/cdebruyn/Development/vue/myflag/functions/node_modules/firebase-functions/lib/index.js"}}
+[debug] [2021-02-25T19:12:31.794Z] DEBUG: [runtime-status] [76664] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.0","resolution":"/Users/cdebruyn/Development/vue/myflag/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2021-02-25T19:12:31.795Z] DEBUG: [runtime-status] [76664] Resolved module firebase-admin {"declared":true,"installed":true,"version":"9.4.2","resolution":"/Users/cdebruyn/Development/vue/myflag/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2021-02-25T19:12:31.795Z] DEBUG: [runtime-status] [76664] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.0","resolution":"/Users/cdebruyn/Development/vue/myflag/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2021-02-25T19:12:31.795Z] DEBUG: [runtime-status] [76664] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"9.4.2","resolution":"/Users/cdebruyn/Development/vue/myflag/functions/node_modules/firebase-admin/lib/index.js"}}
+[debug] [2021-02-25T19:12:31.820Z] DEBUG: [runtime-status] [76664] initializeApp(DEFAULT) {"databaseURL":"https://myflag-za.firebaseio.com","storageBucket":"myflag-za.appspot.com","projectId":"myflag-za"}
+[debug] [2021-02-25T19:12:31.821Z] DEBUG: [runtime-status] [76664] Trigger "applyOnline" has been found, beginning invocation!
+[debug] [2021-02-25T19:12:31.821Z] [functions] Beginning execution of "applyOnline"
+[debug] [2021-02-25T19:12:31.821Z] DEBUG: [runtime-status] [76664] triggerDefinition {"httpsTrigger":{},"name":"applyOnline","entryPoint":"applyOnline"}
+[debug] [2021-02-25T19:12:31.821Z] DEBUG: [runtime-status] [76664] Running applyOnline in mode HTTPS
+[debug] [2021-02-25T19:12:31.824Z] DEBUG: [runtime-status] [76664] Attempting to listen to socketPath: /var/folders/zq/7m4zn1w50wq3mgncxf50yh_80000gn/T/fire_emu_76664.sock
+[debug] [2021-02-25T19:12:31.827Z] DEBUG: [functions] Runtime ready! Sending request!
+[debug] [2021-02-25T19:12:31.833Z] DEBUG: [runtime-status] [76664] Ephemeral server handling GET request
+[debug] [2021-02-25T19:12:31.848Z] DEBUG: [runtime-status] [76664] Ephemeral server survived.
+[info] >  Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at {"user":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at","metadata":{"emulator":{"name":"functions"},"function":{"name":"applyOnline"},"message":"\u001b[90m> \u001b[39m Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at"}}
+[info] >  535 5.7.8  https://support.google.com/mail/?p=BadCredentials j136sm1219167wmj.35 - gsmtp {"user":"535 5.7.8  https://support.google.com/mail/?p=BadCredentials j136sm1219167wmj.35 - gsmtp","metadata":{"emulator":{"name":"functions"},"function":{"name":"applyOnline"},"message":"\u001b[90m> \u001b[39m 535 5.7.8  https://support.google.com/mail/?p=BadCredentials j136sm1219167wmj.35 - gsmtp"}}
+[debug] [2021-02-25T19:12:33.258Z] [functions] Finished "applyOnline" in ~1s
+[debug] [2021-02-25T19:12:33.258Z] DEBUG: [worker-applyOnline-6e5614e3-781f-48c8-89cb-62c7fc0cc595]: IDLE
+[debug] [2021-02-25T19:12:33.259Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2021-02-25T19:14:54.869Z] [functions] Stopping Functions Emulator
+[debug] [2021-02-25T19:14:54.876Z] DEBUG: [worker-~diagnostic~-896c020b-8ff2-4fc5-b4da-ede17b96016b]: exited
+[debug] [2021-02-25T19:14:54.876Z] DEBUG: [worker-~diagnostic~-896c020b-8ff2-4fc5-b4da-ede17b96016b]: FINISHED
+[debug] [2021-02-25T19:14:54.877Z] DEBUG: [worker-applyOnline-6e5614e3-781f-48c8-89cb-62c7fc0cc595]: exited
+[debug] [2021-02-25T19:14:54.877Z] DEBUG: [worker-applyOnline-6e5614e3-781f-48c8-89cb-62c7fc0cc595]: FINISHED

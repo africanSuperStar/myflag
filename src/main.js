@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 
+import Vuelidate from 'vuelidate'
 import { BootstrapVue, BootstrapVueIcons } from 'bootstrap-vue'
 
 import 'bootstrap/dist/css/bootstrap.css'
@@ -13,10 +14,17 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 AOS.init()
 
+import axios from 'axios'
+import qs from 'qs'
+
+Vue.prototype.$http = axios
+Vue.prototype.$qs = qs
+
 import router from './router'
 
 Vue.config.productionTip = false
 
+Vue.use(Vuelidate)
 Vue.use(BootstrapVue)
 Vue.use(BootstrapVueIcons)
 

@@ -20,7 +20,7 @@
                 businesses. Our dedicated legal and support team have more than
                 a decade of experience and specialise in insolvency matters.
               </p>
-              <b-button to="/contact-us" class="btn bg-primary rounded-pill"
+              <b-button to="/apply-online" class="btn bg-primary rounded-pill"
                 >Apply Online</b-button
               >
             </div>

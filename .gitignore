@@ -4,6 +4,7 @@ node_modules
 
 
 # local env files
+.env
 .env.local
 .env.*.local
 
@@ -23,3 +24,7 @@ pnpm-debug.log*
 *.sw?
 .firebase/hosting.*
 
+functions/index.js
+
+myflag-za-7ef2cbf4baf3.json
+myflag-za-62d4e4559496.json

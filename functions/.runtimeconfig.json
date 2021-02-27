@@ -1,0 +1,17 @@
+{
+  "recaptcha": {
+    "sitekey": "6Ld2jU0aAAAAAEXdlq4I3QzrLBcrOyjHWrGz6qys"
+  },
+  "someservice": {
+    "key": "myflag_password",
+    "id": "bubNeq-2jexge-necfeh"
+  },
+  "myflag": {
+    "myflag_clientid": "645850271255-lcaesp1go15jvgh0t27ufdvivqar1igi.apps.googleusercontent.com",
+    "myflag_email": "myflag.za@gmail.com",
+    "key": "myflag_email",
+    "myflag_client_secret": "BjWy2rf4JCy9JeAKThSwdApH",
+    "id": "myflag.za@gmail.com",
+    "refresh_token": "1//04eBMR_blAQw8CgYIARAAGAQSNwF-L9Irl0ozQ8r8Tbe89RH3wSJ7ZX1Uud11puV1N03Ywswtro_B8qa2xQ-YI_6AlL20IYd8FpU"
+  }
+}
