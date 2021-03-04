@@ -1,4 +1,5 @@
 import Vue from 'vue'
+import VueMeta from 'vue-meta'
 import App from './App.vue'
 
 import Vuelidate from 'vuelidate'
@@ -17,6 +18,8 @@ AOS.init()
 import axios from 'axios'
 import qs from 'qs'
 
+import Cloudinary, { CldImage, CldTransformation } from "cloudinary-vue";
+
 Vue.prototype.$http = axios
 Vue.prototype.$qs = qs
 
@@ -27,6 +30,18 @@ Vue.config.productionTip = false
 Vue.use(Vuelidate)
 Vue.use(BootstrapVue)
 Vue.use(BootstrapVueIcons)
+
+Vue.use(VueMeta, {
+  refreshOnceOnNavigation: true
+})
+
+Vue.use(Cloudinary, {
+  configuration: { cloudName: "myflag" },
+  components: {
+    CldImage,
+    CldTransformation
+  }
+})
 
 new Vue({
   router,

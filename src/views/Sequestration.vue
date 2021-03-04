@@ -17,7 +17,7 @@
               <div class="col-lg-3">
                 <b-card
                   title="Start a New Way of Life by being Sequestrated!"
-                  img-src="@/assets/img/freedom.jpg"
+                  img-src="https://res.cloudinary.com/myflag/image/upload/v1614459586/freedom_yv2ttw.jpg"
                   img-alt="Financial Freedom"
                   img-top
                   tag="article"
@@ -36,7 +36,7 @@
               <div class="col-lg-3">
                 <b-card
                   title="No More Debt!"
-                  img-src="@/assets/img/freedom-2.jpg"
+                  img-src="https://res.cloudinary.com/myflag/image/upload/v1614459586/freedom-2_apnx3z.jpg"
                   img-alt="No more debt!"
                   img-top
                   tag="article"
@@ -49,7 +49,7 @@
               <div class="col-lg-3">
                 <b-card
                   title="A brand new start at a clear record"
-                  img-src="@/assets/img/clear.jpeg"
+                  img-src="https://res.cloudinary.com/myflag/image/upload/v1614459585/clear_pwbd4a.jpg"
                   img-alt="Clear record"
                   img-top
                   tag="article"
@@ -61,7 +61,7 @@
               <div class="col-lg-3">
                 <b-card
                   title="No garneshing orders!"
-                  img-src="@/assets/img/freedom-3.jpg"
+                  img-src="https://res.cloudinary.com/myflag/image/upload/v1614459584/freedom-3_ee2xtv.jpg"
                   img-alt="No garneshing orders"
                   img-top
                   tag="article"

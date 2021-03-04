@@ -115,7 +115,7 @@ exports.contactUs = functions.https.onRequest(async (req, res) => {
       let transporter = await createTransporter();
 
       const mailOptions = {
-        to: "debruyn.sarel@gmail.com",
+        to: "info@myflag.co.za",
         from: myflag_email,
         subject: `myflag Contact Us: ${form.name}`,
         text: text,

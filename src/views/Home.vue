@@ -28,7 +28,12 @@
               <div
                 class="img-fluid img-thumbnail mobile-preview shadow floating-animate"
               >
-                <undraw-wallet class="undraw"></undraw-wallet>
+                <cld-image
+                  cloudName="myflag"
+                  class="undraw"
+                  publicId="undraw_wallet_svfsgf"
+                  alt="wallet"
+                />
               </div>
             </div>
           </div>
@@ -57,7 +62,14 @@
                 data-aos-anchor-placement="top-center"
               >
                 <h5 class="services-title">Liquidation</h5>
-                <mf-liquidity class="liquidity"></mf-liquidity>
+                <cld-image
+                  cloudName="myflag"
+                  class="liquidity"
+                  publicId="liquidity_tvxduo"
+                  crop="scale"
+                  alt="liquidation"
+                  width="450"
+                />
                 <p class="services-title pt-7">
                   Liquidation is a legal process by which a legal entity is
                   closed down, because the business has become insolvent.
@@ -79,7 +91,14 @@
                 data-aos-anchor-placement="top-center"
               >
                 <h5 class="services-title">Sequestration</h5>
-                <mf-sequestration class="sequestration"></mf-sequestration>
+                <cld-image
+                  cloudName="myflag"
+                  class="sequestration"
+                  publicId="revenue_grrpgw"
+                  crop="scale"
+                  alt="sequestration"
+                  width="450"
+                />
                 <p class="services-title pt-7">
                   Sequestration is declaring yourself insolvent/bankrupt through
                   a High Court application under the Insolvency Act.
@@ -101,7 +120,14 @@
                 data-aos-anchor-placement="top-center"
               >
                 <h5 class="services-title pb-5">Rehabilitation</h5>
-                <mf-rehabilitation class="rehabilitation"></mf-rehabilitation>
+                <cld-image
+                  cloudName="myflag"
+                  class="rehabilitation"
+                  publicId="budget_dd9rej"
+                  crop="scale"
+                  alt="sequestration"
+                  width="450"
+                />
                 <p class="services-title pt-4">
                   Rehabilitation is the legal process by which an Insolvent (a
                   sequestrated individual) is relieved of the legal implications
@@ -123,7 +149,12 @@
             <div
               class="img-fluid img-thumbnail mobile-preview shadow floating-animate"
             >
-              <undraw-receipt class="undraw"></undraw-receipt>
+              <cld-image
+                cloudName="myflag"
+                class="undraw"
+                publicId="undraw_receipt_mpune0"
+                alt="receipt"
+              />
             </div>
           </div>
           <div class="col-lg-6 py-3 mt-lg-5">
@@ -277,9 +308,12 @@
               <div
                 class="img-fluid img-thumbnail mobile-preview shadow floating-animate"
               >
-                <undraw-personal-finance
+                <cld-image
+                  cloudName="myflag"
                   class="undraw"
-                ></undraw-personal-finance>
+                  publicId="undraw_personal_finance_xnpkrw"
+                  alt="personal finance"
+                />
               </div>
             </div>
           </div>
@@ -294,9 +328,12 @@
             <div
               class="img-fluid img-thumbnail mobile-preview shadow floating-animate"
             >
-              <undraw-modern-professional
+              <cld-image
+                cloudName="myflag"
                 class="undraw"
-              ></undraw-modern-professional>
+                publicId="undraw_modern_professional_fqxse3"
+                alt="young professional"
+              />
             </div>
           </div>
           <div class="col-lg-5">
@@ -336,25 +373,51 @@
 
 <script>
 import MfNavBar from "@/components/MfNavBar";
-import UndrawWallet from "@/assets/img/undraw_wallet.svg";
-import UndrawReceipt from "@/assets/img/undraw_receipt.svg";
-import UndrawPersonalFinance from "@/assets/img/undraw_personal_finance.svg";
-import UndrawModernProfessional from "@/assets/img/undraw_modern_professional.svg";
-import MfLiquidity from "@/assets/img/liquidity.svg";
-import MfRehabilitation from "@/assets/img/budget.svg";
-import MfSequestration from "@/assets/img/revenue.svg";
 
 export default {
   name: "home",
   components: {
     MfNavBar,
-    "undraw-wallet": UndrawWallet,
-    "undraw-receipt": UndrawReceipt,
-    "undraw-personal-finance": UndrawPersonalFinance,
-    "undraw-modern-professional": UndrawModernProfessional,
-    "mf-liquidity": MfLiquidity,
-    "mf-rehabilitation": MfRehabilitation,
-    "mf-sequestration": MfSequestration,
+  },
+  metaInfo: {
+    title: "myflag - Home Page",
+    titleTemplate: "%s ← myflag",
+    meta: [
+      { "http-equiv": "Content-Type", content: "text/html; charset=utf-8" },
+      { name: "viewport", content: "width=device-width, initial-scale=1" },
+      {
+        name: "description",
+        content: "The Start of New Financial Beginnings.",
+      },
+      { property: "og:title", content: "myflag - Home Page ← myflag" },
+      { property: "og:site_name", content: "myflag" },
+      // The list of types is available here: http://ogp.me/#types
+      { property: "og:type", content: "website" },
+      // Should the the same as your canonical link, see below.
+      {
+        property: "og:url",
+        content: "https://myflag.co.za/",
+      },
+      {
+        property: "og:image",
+        content: "https://myflag.co.za/img/myflag-logo.dcfb8be4.png",
+      },
+      {
+        property: "og:description",
+        content: "The Start of New Financial Beginnings.",
+      },
+
+      // Google / Schema.org markup:
+      { itemprop: "name", content: "myflag - Home Page ← myflag" },
+      {
+        itemprop: "description",
+        content: "The Start of New Financial Beginnings.",
+      },
+      {
+        itemprop: "image",
+        content: "https://myflag.co.za/img/myflag-logo.dcfb8be4.png",
+      },
+    ],
   },
 };
 </script>
@@ -393,7 +456,8 @@ a:visited {
   margin: auto;
   overflow: inherit;
   height: 100px;
-  width: 50%;
+  width: 20%;
+  transform: scale(0.25) translateX(-12.5em) translateY(-12.75em);
 }
 
 .sequestration {
