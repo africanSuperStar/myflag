@@ -28,8 +28,10 @@
                     Financial freedom can be yours in a few simple steps.
                   </b-card-text>
 
-                  <b-button href="#" class="btn bg-primary rounded-pill"
-                    >Get Sequestrated</b-button
+                  <b-button
+                    to="/apply-online"
+                    class="btn bg-primary rounded-pill"
+                    >Apply Now</b-button
                   >
                 </b-card>
               </div>
@@ -43,7 +45,9 @@
                   style="max-width: 20rem"
                   class="mb-2"
                 >
-                  <b-card-text> Let us help you get debt free. </b-card-text>
+                  <b-card-text>
+                    Let us help you relieve yourself of your debt.
+                  </b-card-text>
                 </b-card>
               </div>
               <div class="col-lg-3">
@@ -60,9 +64,9 @@
               </div>
               <div class="col-lg-3">
                 <b-card
-                  title="No garneshing orders!"
+                  title="No garnishee orders!"
                   img-src="https://res.cloudinary.com/myflag/image/upload/v1614459584/freedom-3_ee2xtv.jpg"
-                  img-alt="No garneshing orders"
+                  img-alt="No garnishee orders"
                   img-top
                   tag="article"
                   style="max-width: 20rem"
@@ -277,7 +281,7 @@
             <b-card-body>
               <b-card-text
                 >Your creditors are legally not allowed to attach your income or
-                salary a month.
+                salary.
               </b-card-text>
             </b-card-body>
           </b-collapse>
@@ -296,9 +300,9 @@
           <b-collapse id="accordion-6" accordion="my-accordion" role="tabpanel">
             <b-card-body>
               <b-card-text
-                >After 6 months or 4 years (depending on circumstances) you can
-                apply for rehabilitation and your credit status will be
-                reinstated.
+                >After 6 months or 4 years (depending on circumstances); and
+                after final sequestration order has been granted; you can apply
+                for rehabilitation and your credit status will be reinstated.
               </b-card-text>
             </b-card-body>
           </b-collapse>
@@ -355,7 +359,7 @@
               <b-card-body>
                 <b-card-text
                   >You will not be able to act as a member of Close Corporation
-                  or director of the Company.
+                  or director of the Company until you are rehabilitated.
                 </b-card-text>
               </b-card-body>
             </b-collapse>

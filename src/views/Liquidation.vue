@@ -58,8 +58,8 @@
               responsible for any debt incurred.</b-list-group-item
             >
             <b-list-group-item
-              >Whether the business is able to pay its debts when they are
-              due.</b-list-group-item
+              >Whether the business is able to pay its debts when they become
+              due and payable.</b-list-group-item
             >
             <b-list-group-item>No trading is taking place</b-list-group-item>
           </b-list-group>
@@ -100,6 +100,11 @@ a:visited {
 .contact {
   color: #000;
   background-color: #c7c7c7;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
 }
 
 .mf-background-container {

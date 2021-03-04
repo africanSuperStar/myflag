@@ -39,7 +39,7 @@
               <b-card-text
                 >Contact us to explain the fee structure and how it works.
               </b-card-text>
-              <b-button class="btn bg-primary rounded-pill"
+              <b-button to="/contact-us" class="btn bg-primary rounded-pill"
                 >Contact Us</b-button
               >
             </b-card-body>
@@ -81,7 +81,7 @@
               <b-card-text
                 >Contact us so we can discuss it with you.</b-card-text
               >
-              <b-button class="btn bg-primary rounded-pill"
+              <b-button to="/contact-us" class="btn bg-primary rounded-pill"
                 >Contact Us</b-button
               >
             </b-card-body>
@@ -247,6 +247,11 @@ a:visited {
 .contact {
   color: #000;
   background-color: #c7c7c7;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
 }
 
 .mf-background-container {
